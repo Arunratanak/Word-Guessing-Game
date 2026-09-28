@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.GITHUB_ACTIONS ? '/YOUR-REPO/' : '/',
+  base: process.env.GITHUB_ACTIONS ? '/Word-Guessing-Game/' : '/',
 })
